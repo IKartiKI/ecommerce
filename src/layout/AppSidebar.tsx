@@ -318,16 +318,13 @@ const AppSidebar: React.FC = () => {
                 width={150}
                 height={40}
               />
-              <span className="hidden dark:block text-2xl font-bold text-primary">
-                UrbanCart
-              </span>
-              {/* <Image
+              <Image
                 className="hidden dark:block"
                 src="/images/logo/logo-dark.svg"
                 alt="Logo"
                 width={150}
                 height={40}
-              /> */}
+              />
             </>
           ) : (
             <Image
